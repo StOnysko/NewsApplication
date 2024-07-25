@@ -27,7 +27,7 @@ abstract class ArticleLocalDatabase : RoomDatabase() {
                         Room.databaseBuilder(
                             context = context,
                             klass = ArticleLocalDatabase::class.java,
-                            name = "test.db"
+                            name = "database.db"
                         ).build()
                     INSTANCE = database
                     return database
